@@ -16,6 +16,7 @@ public class Controller1 {
     public ModelAndView query() {
         ModelAndView modelAndView = new ModelAndView();
         System.out.println("你想干嘛");
+        System.out.println("===========");
         modelAndView.setViewName("/list.jsp");
         return modelAndView;
     }
